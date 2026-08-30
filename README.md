@@ -89,7 +89,7 @@ Driver Requests Access → Location Captured → OTP Generated (Hash stored) →
 
 ## 📸 Screenshots
 
-*(Place your 6 screenshots in the `screenshots` folder and they will appear here!)*
+
 
 | Driver Experience | Admin Dashboard |
 | :---: | :---: |
