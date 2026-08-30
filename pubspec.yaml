@@ -1,0 +1,72 @@
+name: carrierlock
+description: Smart Logistics Access System — Split-OTP vehicle carrier lock
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.8.1
+  firebase_auth: ^5.4.1
+  cloud_firestore: ^5.6.1
+  firebase_messaging: ^15.2.1
+  google_sign_in: ^6.2.1
+
+  # Location (ALL FREE - NO API KEYS)
+  geolocator: ^13.0.2
+  geocoding: ^4.0.0
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Navigation
+  go_router: ^14.8.1
+
+  # UI
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.2
+  shimmer: ^3.0.0
+
+  # Utilities
+  intl: ^0.20.2
+  shared_preferences: ^2.5.3
+  permission_handler: ^11.4.0
+  flutter_local_notifications: ^18.0.1
+  uuid: ^4.5.1
+  equatable: ^2.0.7
+  json_annotation: ^4.9.0
+  crypto: ^3.0.3
+  pdf: ^3.12.0
+  printing: ^5.14.3
+  url_launcher: ^6.3.2
+  googleapis_auth: ^1.6.0
+  http: ^1.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.15
+  json_serializable: ^6.9.4
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/images/app_icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
