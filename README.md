@@ -91,7 +91,7 @@ Driver Requests Access → Location Captured → OTP Generated (Hash stored) →
 
 
 
-| Driver Experience | Admin Dashboard |
+
 | :---: | :---: |
 | <img src="screenshots/screen1.png" width="250"> | <img src="screenshots/screen4.png" width="250"> |
 | <img src="screenshots/screen2.png" width="250"> | <img src="screenshots/screen5.png" width="250"> |
