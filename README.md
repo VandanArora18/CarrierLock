@@ -83,7 +83,7 @@ Driver Requests Access → Location Captured → OTP Generated (Hash stored) →
 | **Maps & Location** | flutter_map, Geolocator |
 | **Styling & UI** | Google Fonts, flutter_animate |
 
-*(Note: Backend configuration files have been omitted from this repository for security purposes. The application requires a standard Firebase/Firestore backend to operate.)*
+
 
 ---
 
